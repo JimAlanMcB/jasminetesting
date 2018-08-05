@@ -63,7 +63,7 @@ $(function () {
         });
         // make sure feeds were loaded by testing to determine length is greater than 0 for the entries
         it('loaded feeds', function (done) {
-            expect($('.feed').children().length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
             done();
         });
         //Test with incorrect link
